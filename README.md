@@ -14,7 +14,9 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
-### Credits
+### Requirements
+Language: Python 3.6 
+Libraries: pandas, numpy, time
 
 
 
