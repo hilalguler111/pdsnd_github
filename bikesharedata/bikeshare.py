@@ -259,6 +259,8 @@ def raw_data(df):
     i = 1
     while True:
         rawdata = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+        #If user opts for it, this displays next 5 rows of data
+    
         if rawdata.lower() == 'yes':
             
             print(df[i:i+5])
@@ -271,7 +273,7 @@ def raw_data(df):
 
 
 
-
+#Main function to call all the previous functions
 def main():
     while True:
         city, month, day = get_filters()
